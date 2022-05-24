@@ -22,7 +22,7 @@ public class ReverseEngineer {
      * @throws NullPointerException     if the given string is null.
      * @throws IllegalArgumentException if the given string is empty.
      */
-    public String reverseString(String string) {
+    public String reverse(String string) {
         return String.valueOf(Integer.MIN_VALUE);
     }
 }

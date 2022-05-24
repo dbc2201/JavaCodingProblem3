@@ -1,5 +1,3 @@
-[![Test Case Report](https://github.com/dbc2201/JavaCodingProblem1/actions/workflows/maven.yml/badge.svg?event=push)](https://github.com/dbc2201/JavaCodingProblem1/actions/workflows/maven.yml)
-
 # Java Coding Problems
 
 ## Chapter 1: Strings, Numbers, and Math
@@ -11,16 +9,14 @@
 Write a program that reverses the letters of each word and a program that reverses the letters of each word and the
 words themselves.
 
-### Sample Input 1
+### Sample Input & Output
 
 ```
-"aabcc"
-```
+reverseWords("laptop") => "potpal"
+reverseWords("hello world") => "olleh dlrow"
 
-### Sample Output 1
-
-```
-{a=2, b=1, c=2}
+reverse("java coding problems") => "smelbrop gnidoc avaj"
+reverse("hello world") => "dlrow olleh"
 ```
 
 ---
@@ -39,5 +35,5 @@ words themselves.
 
 **Suggested Reading:**
 
-1. []()
-2. []()
+1. ['Strings' @ dev.java](https://dev.java/learn/strings/)
+2. ['String Builders' @ dev.java](https://dev.java/learn/string-builders/)
