@@ -2,6 +2,8 @@ package io.github.dbc;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ReverseStringsGenerator reverseStringsGenerator = new ReverseStringsGenerator();
+        String reverseWords = reverseStringsGenerator.reverseWords("Talk is cheap, show me the code!");
+        System.out.println(reverseWords);
     }
 }
