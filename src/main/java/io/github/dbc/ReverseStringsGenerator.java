@@ -10,24 +10,7 @@ public class ReverseStringsGenerator {
      * @throws IllegalArgumentException if the given string is empty.
      */
     public String reverseWords(String string) {
-        if (string == null) {
-            throw new NullPointerException("The given string cannot be null.");
-        }
-        if (string.isEmpty() || string.isBlank()) {
-            throw new IllegalArgumentException("The given string cannot be empty.");
-        }
-        String[] words = string.split(" ");
-        StringBuilder reversedString = new StringBuilder();
-        for (String word : words) {
-            StringBuilder reversedWord = new StringBuilder();
-
-            for (int length = word.length(); length > 0; length--) {
-                reversedWord.append(word.charAt(length - 1));
-            }
-
-            reversedString.append(reversedWord).append(" ");
-        }
-        return reversedString.toString().trim();
+        return String.valueOf(Integer.MIN_VALUE);
     }
 
     /**

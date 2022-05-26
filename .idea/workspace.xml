@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c7ca22b-5db0-48b9-9cff-4a2976cfb57b" name="Changes" comment="complete the README.md">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/dbc/ReverseStringsGeneratorTest.java" afterDir="false" />
+    <list default="true" id="3c7ca22b-5db0-48b9-9cff-4a2976cfb57b" name="Changes" comment="complete first draft">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dbc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dbc/ReverseEngineer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dbc/ReverseStringsGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dbc/ReverseEngineerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dbc/ReverseStringsGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dbc/ReverseStringsGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/dbc/ReverseStringsGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/dbc/ReverseStringsGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/divya/IdeaProjects/jcp/JCP_C1_P3/src/main/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "true",
+    "last_opened_file_path": "C:/Users/divya/IdeaProjects/jcp/JCP_C1_P3/src/main/resources",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\divya\IdeaProjects\jcp\JCP_C1_P3\src\main\resources" />
@@ -110,7 +108,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ReverseStringsGeneratorTest" />
-        <item itemvalue="Application.io.github.dbc.Main" />
         <item itemvalue="JUnit.ReverseStringsGeneratorTest.shouldThrowANullPointerExceptionWhenNullIsPassed" />
       </list>
     </recent_temporary>
@@ -126,7 +123,8 @@
       <workItem from="1653376243670" duration="3323000" />
       <workItem from="1653479841306" duration="51000" />
       <workItem from="1653479902839" duration="269000" />
-      <workItem from="1653482889606" duration="1022000" />
+      <workItem from="1653482889606" duration="1080000" />
+      <workItem from="1653545955933" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1653376266371</created>
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653426690113</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete first draft">
+      <created>1653483974949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653483974949</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +174,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add template" />
     <MESSAGE value="complete the README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete the README.md" />
+    <MESSAGE value="complete first draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete first draft" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
